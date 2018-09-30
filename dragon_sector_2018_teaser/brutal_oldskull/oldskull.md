@@ -2,7 +2,9 @@
 
 ### Solution
 Being a noob, I spent a lot of time reversing the entire key check algorithm before it dawned on me that I could simply use the program against itself to brute-force the keys. 
-Brute-forcing code input [1-4]
+
+
+### Brute-forcing code input [1-4]
 
 Each of the Code [1-4] inputs require a 16-bit value to be entered. Since the code inputs are being checked in succession, it would only require a maximum of 4 * 0x10000 tests in the worst-case scenario. 
 This is the code checking input code 2 (the code check sections are more or less the same for the 4 inputs)

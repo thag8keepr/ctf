@@ -20,7 +20,7 @@ EDI is used as an index which is cleared on entry, and incremented by one at eac
 
 ### Resulting input codes
 ```
-Code 1: **0x5B42** Code 2: **0x13CC** Code 3: **0xF129** Code 4: **0x62AC**
+Code 1: 0x5B42 Code 2: 0x13CC Code 3: 0xF129 Code 4: 0x62AC
 ```
 
 
@@ -59,5 +59,5 @@ Final test:
 
 ### Flag
 ```
-**DrgnS{WaaayTooEZ!!1}**
+DrgnS{WaaayTooEZ!!1}
 ```

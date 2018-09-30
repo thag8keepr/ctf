@@ -20,7 +20,7 @@ EDI is used as an index which is cleared on entry, and incremented by one at eac
 
 ### Resulting input codes
 ```
-Code 1: 0x5B42 Code 2: 0x13CC Code 3: 0xF129 Code 4: 0x62AC
+Code 1: **0x5B42** Code 2: **0x13CC** Code 3: **0xF129** Code 4: **0x62AC**
 ```
 
 
@@ -32,7 +32,7 @@ Back to the disassembly. What really happens when we enter the input codes [1-4]
 
 ![](https://github.com/thag8keepr/ctf/blob/master/dragon_sector_2018_teaser/brutal_oldskull/4.png)
 
-The decrypted blob is written to a file called “oldskull_checker.exe” in your temp directory and is called with the value from the “Final Flag” input text box as argument. If the return value from this call is correct the “Well done” message is shown. 
+The decrypted blob is written to a file called **“oldskull_checker.exe”** in your temp directory and is called with the value from the “Final Flag” input text box as argument. If the return value from this call is correct the “Well done” message is shown. 
 
 OK, let’s fire up the “oldskull_checker.exe” in IDA. We find this piece of code:
 
@@ -44,13 +44,13 @@ The code checks that the length of our input is 0x14, and then runs through a lo
 ![](https://github.com/thag8keepr/ctf/blob/master/dragon_sector_2018_teaser/brutal_oldskull/6.png)
 
 Extract the bytes: 
-CBFDE8E1DCF4D8EEEEEEF6DBE0E0CAD5AEAEBEF2
+**CBFDE8E1DCF4D8EEEEEEF6DBE0E0CAD5AEAEBEF2**
 
 Xor’ed with 0x8F:
-4472676e537b5761616179546f6f455a2121317d
+**4472676e537b5761616179546f6f455a2121317d**
 
 Hex to ascii:
-DrgnS{WaaayTooEZ!!1}
+**DrgnS{WaaayTooEZ!!1}**
 
 Final test:
 
@@ -59,5 +59,5 @@ Final test:
 
 ### Flag
 ```
-DrgnS{WaaayTooEZ!!1}
+**DrgnS{WaaayTooEZ!!1}**
 ```

@@ -54,7 +54,7 @@ Hex to ascii:
 
 ### Final test 
 
-![](https://github.com/thag8keepr/ctf/blob/master/dragon_sector_2018_teaser/brutal_oldskull/7.png)
+![](7.png)
 
 
 ### Flag

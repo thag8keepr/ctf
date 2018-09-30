@@ -52,7 +52,7 @@ Xor’ed with 0x8F:
 Hex to ascii:
 **DrgnS{WaaayTooEZ!!1}**
 
-### Final test
+### Final test 
 
 ![](https://github.com/thag8keepr/ctf/blob/master/dragon_sector_2018_teaser/brutal_oldskull/7.png)
 

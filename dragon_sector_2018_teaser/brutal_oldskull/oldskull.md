@@ -14,7 +14,12 @@ I patched the code like so:
 ![](https://github.com/thag8keepr/ctf/blob/master/dragon_sector_2018_teaser/brutal_oldskull/2.png)
 
 EDI is used as an index which is cleared on entry, and incremented by one at each iteration and copied to EAX, which in turn is feed into the check function. At some point EDI will contain the correct value and the program execution will continue to check the next code input. I put a breakpoint at each of these branches to intercept the value of EDI and thereby the value of code [1-4]. 
+
+### Resulting input codes
+```
 Code 1: 0x5B42 Code 2: 0x13CC Code 3: 0xF129 Code 4: 0x62AC
+```
+
 
 Entering the 4 codes as shown below gets us a bit further: “Wrong Flag”. So, input codes are correct, but apparently, we need to enter something in the “Final Flag” input box – supposedly it should be in the DrgnS{xxx} format. 
 
